@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <i class="fas fa-dog"></i>
+        <h1>Dog Breeds</h1>
+        <nav>
+            <a href="#" onclick="displayAllBreeds()">
+                <i class="fas fa-home"></i> HOME</a>
+        </nav>
+    </header>
+    <section id="main-page">
+
+        <ul id="allBreedList">
+
+        </ul>
+        <div id="random1">
+
+            <div id="randomArea">
+
+            </div>
+            <button onclick="updateMainImage()">Refresh</button>
+        </div>
+
+    </section>
+    <section id="breed-page">
+        <a href="#" onclick="goBack()">
+            <i class="fas fa-chevron-left"></i> Back</a>
+        <div id="breedList">
+            <ul id="subBreedList">
+            </ul>
+
+        </div>
+        <div id="random2">
+            <div id="randomBreedArea">
+            </div>
+            <button onclick="updateBreedImage(this)" id="breedButton">Refresh</button>
+        </div>
+        <div>
+            <ul id="allBreedImages">
+
+            </ul>
+        </div>
+
+    </section>
+    <section id="sub-breed-page">
+        <a href="#" onclick="goBack()">
+            <i class="fas fa-chevron-left"></i> Back</a>
+        <ul id="allSubBreedImages">
+
+        </ul>
+        <div id="random3">
+
+            <div id="randomSubBreedArea">
+
+            </div>
+            <button onclick="displaySubBreedRandomImage()" id="subBreedButton">Refresh</button>
+        </div>
+    </section>
+</body>
+
+</html>

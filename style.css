@@ -1,0 +1,302 @@
+ 
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #E91E63;
+    color: white;
+    text-align: center;
+    height: 116px;
+    position: fixed
+}
+header>.fas{
+    font-size: 51px;
+}
+header nav{
+    margin-top: 5px;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+#main-page{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 87%;
+}
+  #allBreedList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 650px;
+    margin-left: 61px;
+    justify-content: space-between;
+    margin-top: 230px;
+  }
+
+  #allBreedList li{
+    list-style-type: none;
+    cursor: pointer;
+    background-color: #E91E63;
+    margin: 10px;
+    color: white;
+    border-radius: 21px;
+    padding: 7px;
+    transition-duration: 0.4s;
+
+}     
+#allBreedList li a{
+    text-decoration: none;
+    color: white;
+
+}
+#allBreedList li:hover{
+    opacity: 0.1;
+}
+#random1{
+    margin-top: 230px;
+    border: 1px solid black;
+    padding: 29px;
+    height: 490px;
+  }
+#randomArea li {
+    list-style-type: none;
+    text-align: center;
+}
+#randomArea li img{
+    width: 400px;
+    height: 300px;
+    margin: 33px 0px;
+    border-radius: 61px;
+    box-shadow: 1px 1px 16px 2px #E91E63;
+}
+#subBreedList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 470px;
+    margin-left: 156px;
+    margin-top: 230px;
+    justify-content: space-between;
+}
+#sub-breed-page{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#subBreedList li{
+    list-style-type: none;
+    cursor: pointer;
+    background-color: #E91E63;
+    margin: 10px;
+    border-radius: 21px;
+    padding: 7px;
+}
+
+#subBreedList li:hover{
+    opacity: 0.1;
+}
+#subBreedList li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#allBreedImages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#allBreedImages li{
+    margin: 5px;
+    list-style-type: none;
+}
+
+#allBreedImages li img{
+    width: 250px;
+    height: 200px;
+}
+
+#breed-page{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    
+}
+
+#breed-page>a{
+    left: 26px;
+    position: fixed;
+    padding: 20px;
+    background-color: #ffeb3b;
+    text-decoration: none;
+    color: white;
+    line-height: 76px;
+    transition-duration: 0.4s;
+}
+#breed-page>a:hover{
+    opacity: 0.4;
+}
+#randomBreedArea li{
+    list-style-type: none;
+    text-align: center;
+}
+
+#randomBreedArea li img{
+    width: 400px;
+    height: 300px;
+    margin: 33px 0px;
+    border-radius: 61px;
+    box-shadow: 1px 1px 16px 2px #E91E63;
+}
+
+#random1 button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #E91E63;
+    margin-left: 115px;
+    border-radius: 5px;
+}
+
+#random1 button:hover{
+    background-color: #E91E63;
+    color: white;
+  }
+ 
+
+  #breedList{
+    margin-right: 229px;
+  }
+#random2{
+    margin-top: 230px;
+    margin-bottom: 300px;
+    border: 1px solid black;
+    padding: 29px;
+    height: 490px;
+}
+  #random2 button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #E91E63;
+    margin-left: 115px;
+    border-radius: 5px;
+}
+
+#random2 button:hover{
+    background-color: #E91E63;
+    color: white;
+  }
+
+  .more-pic{
+    position: absolute;
+    top: 700px;
+    left: 600px;
+    font-size: 38px;
+  }
+
+  #allSubBreedImages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 522px;
+    margin-top: 230px;
+}
+
+#allSubBreedImages li{
+    margin: 5px;
+    list-style-type: none;
+}
+
+#allSubBreedImages li img{
+    width: 250px;
+    height: 200px;
+}
+
+#sub-breed-page>a{
+    top: 0px;
+    left: 26px;
+    position: fixed;
+    padding: 20px;
+    background-color: #ffeb3b;
+    text-decoration: none;
+    color: white;
+    line-height: 76px;
+    transition-duration: 0.4s;
+}
+#sub-breed-page>a:hover{
+    opacity: 0.4;
+}
+
+#random3{
+    margin-top: 230px;
+    margin-bottom: 300px;
+    border: 1px solid black;
+    padding: 29px;
+    height: 490px;
+    margin-left: 36px;
+    width: 500px;
+    position: fixed;
+}
+
+#randomSubBreedArea li{
+    list-style-type: none;
+}
+#randomSubBreedArea li{
+    list-style-type: none;
+    text-align: center;
+}
+#randomSubBreedArea li img{
+    
+    width: 400px;
+    height: 300px;
+    margin: 33px 0px;
+    border-radius: 61px;
+    box-shadow: 1px 1px 16px 2px #E91E63;
+}
+
+#random3 button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #E91E63;
+    margin-left: 154px;
+    border-radius: 5px;
+}
+
+#random3 button:hover{
+    background-color: #E91E63;
+    color: white;
+  }
+
